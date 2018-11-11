@@ -1,0 +1,27 @@
+.Menu {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5%;
+    width: 100%;
+}
+.Menu-List {
+    padding-left: 0;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.Menu-Item {
+    margin-right: 28px;
+}
+.Menu-Item:last-child {
+    margin-right: 0;
+}
+.Menu-Reference {
+    font-weight: bold;
+    opacity: 0.6;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 20px;
+    text-decoration: none;
+}
