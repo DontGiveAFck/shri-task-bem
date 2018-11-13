@@ -3,3 +3,10 @@
     padding-left: 12.5%;
     padding-right: 12.5%;
 }
+.Content-Title {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    color: #333333;
+    text-align: left;
+}

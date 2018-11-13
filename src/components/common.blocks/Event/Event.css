@@ -1,0 +1,173 @@
+.Event {
+    background: #FAFAFA;
+    border-radius: 20px;
+    grid-row: span 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.Event:hover {
+    background: #F3F3F3;
+    box-shadow: 0 2px 6px 0 rgba(197,186,186,0.50);
+}
+.Event-Image {
+    border-radius: 20px;
+    margin-top: auto;
+    width: 100%;
+    height: 100%;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.Event-Data {
+    margin-top: 30px;
+}
+.Event_size_m {
+    grid-column: span 3;
+}
+.Event_size_s {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.Event_size_l {
+    grid-row: span 3;
+    grid-column: span 4;
+}
+.Event-SourceTimeRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Event-Time {
+    font-family: ArialMT, sans-serif;
+    font-size: 1.5rem;
+    color: #333333;
+}
+.Event-Source{
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    color: #333333;
+}
+.Event-TemperatureHumidityRow {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.Event-Temperature {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+}
+.Event-Humidity {
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+}
+.Event-TemperatureValue {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+.Event-HumidityValue {
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+.Event-Description {
+    font-size: 24px;
+    color: #333333;
+}
+.Event-IconTitleRow {
+    align-items: center;
+    display: flex;
+}
+.Event-Icon {
+    width: 52px;
+    height: 52px;
+}
+.Event-Title{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #333333;
+    margin-left: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Event-ArrowRight {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    z-index: 1;
+    background-color: #FAFAFA;
+}
+.Event-ArrowCross {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 1px;
+    transition-duration: 0.1s;
+}
+.Event:hover .Event-ArrowCross {
+    display: block;
+}
+.Event:hover .Event-ArrowRight {
+    display: block;
+}
+.Event_type_critical {
+    background-color: #DB5341;
+    padding-bottom: 0px;
+}
+.Event_type_critical:hover {
+    background-color: #DB5341;
+}
+.Event-EventContainer_type_info {
+    margin-top: 30px;
+    position: relative;
+}
+.Event-EventContainer_type_critical {
+    background: #FAFAFA;
+    border-radius: 20px;
+    grid-row: span 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+    right: 20px;
+    height: 100%;
+    width: 100%;
+}
+.Event_size_s .Event-SourceTimeRow {
+    flex-direction: column;
+}
+
+.Event_size_s .Event-Time {
+    margin-top: 20px;
+}
+
+.Event_type_critical .Event-Title {
+    color: #ffffff;
+}
+
+.Event_type_critical .Event-Source {
+    color: #ffffff;
+}
+.Event_type_critical .Event-Time {
+    color: #ffffff;
+}

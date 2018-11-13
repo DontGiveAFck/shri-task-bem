@@ -1,0 +1,111 @@
+.Music-TrackTitle{
+
+}
+.Music-TrackRange{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 2px;
+    background-color: #979797;
+    width: 100%;
+    outline: none;
+}
+.Music-TrackRange::-webkit-slider-thumb{
+    z-index: 2;
+    border-radius: 4.5px;
+    -webkit-appearance: none;
+    width: 12px;
+    height: 20px;
+    appearance: none;
+    cursor: pointer;
+    background: #D8D8D8;
+}
+.Music-TrackRange::-moz-range-thumb{
+    z-index: 2;
+    border-radius: 4.5px;
+    -moz-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.Music-TrackRange::-moz-range-track {
+    background: #D8D8D8;
+}
+.Music-TrackRange::-moz-range-thumb::before {
+    display: block;
+}
+.Music-VolumeRange{
+
+}
+.Music-ButtonRight {
+    transform: rotate(180deg);
+}
+.Music-TrackRow{
+    display: flex;
+    align-items: center;
+}
+.Music-Track {
+    margin-left: 16px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.Music-TrackTitle{
+    font-size: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+}
+.Music-VolumeRange {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 4px;
+    width: 100%;
+    background: rgba(216,216,216,0.30);
+    border-radius: 2px;
+    margin-left: 6px;
+    outline: none;
+}
+.Music-VolumeRange::-webkit-slider-thumb {
+    z-index: 2;
+    border-radius: 26px;
+    -webkit-appearance: none;
+    width: 17px;
+    height: 16px;
+    appearance: none;
+    cursor: pointer;
+    background: #605757;
+}
+.Music-TrackIcon {
+    width: 53px;
+    height: 52px;
+    border-radius: 5px;
+}
+.Music-VolumeRow {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.Music-TrackLength{
+    color: #A1A1A1;
+    font-size: 14px;
+    margin-left: 16px;
+}
+.Music-VolumePercentage{
+    color: #A1A1A1;
+    font-size: 14px;
+    margin-left: 16px;
+}
+.Music-RangeLengthRow{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.Music-ButtonRight {
+    margin-left: 27px;
+}
