@@ -1,2 +1,5 @@
 # Задание - БЭМ
-### in progress
+#### Страница с ивентам переведена на bem с использованием react, typescript
+####Запуск:
+<b>npm i</b> <br>
+<b>npm start</b>
