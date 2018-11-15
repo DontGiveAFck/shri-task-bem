@@ -6,6 +6,6 @@ const cnLogo = cn('Logo');
 
 export const Logo = (props: any) => (
     <a href="#" className={cnLogo()}>
-        <img src={logo} alt="logo"/>
+        <img src={logo} alt="logo" className={cnLogo('Image')}/>
     </a>
 );
