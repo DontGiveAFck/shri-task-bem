@@ -1,0 +1,12 @@
+.Event_size_s .Event-SourceTimeRow {
+    flex-direction: column;
+}
+
+.Event_size_s .Event-Time {
+    margin-top: 20px;
+}
+
+.Event_size_s {
+    grid-column: span 2;
+    grid-row: span 1;
+}

@@ -68,7 +68,7 @@
     flex-shrink: 0;
 }
 .Event-Description {
-    font-size: 24px;
+    font-size: 18px;
     color: #333333;
 }
 .Event-IconTitleRow {
@@ -76,13 +76,13 @@
     display: flex;
 }
 .Event-Icon {
-    width: 52px;
-    height: 52px;
+    width: 36px;
+    height: 36px;
 }
 .Event-Title{
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 14px;
     color: #333333;
     margin-left: 20px;
     display: -webkit-box;

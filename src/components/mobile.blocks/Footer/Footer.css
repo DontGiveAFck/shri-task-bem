@@ -1,0 +1,12 @@
+.footer .corp {
+    margin: 20px 0 0 0;
+}
+
+.footer ul{
+    flex-direction: column;
+}
+
+.footer ul li {
+    padding: 7px;
+    flex-shrink: 0;
+}

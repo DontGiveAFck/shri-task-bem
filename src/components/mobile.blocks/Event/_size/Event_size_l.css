@@ -1,0 +1,7 @@
+.Event_size_l {
+    grid-column: span 6;
+    grid-row: span 1;
+}
+.Event_size_l .Event-Description {
+    font-size: 18px;
+}

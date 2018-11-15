@@ -1,7 +1,7 @@
 import { cn } from '@bem-react/classname';
 import { withBemMod } from "@bem-react/core";
 import * as React from 'react';
-import './Menu.css';
+import './HeaderMenu.css';
 
 const cnMenu = cn('Menu');
 

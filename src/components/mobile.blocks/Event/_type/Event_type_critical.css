@@ -1,0 +1,16 @@
+.Event_type_critical .Event-Source {
+    color: #ffffff;
+}
+.Event_type_critical .Event-Time {
+    color: #ffffff;
+}
+.Event_type_critical {
+    background-color: #DB5341;
+    padding-bottom: 0px;
+}
+.Event_type_critical:hover {
+    background-color: #DB5341;
+}
+.Event_type_critical .Event-Title {
+    color: #ffffff;
+}
