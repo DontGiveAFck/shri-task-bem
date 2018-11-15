@@ -1,5 +1,5 @@
 import { cn } from '@bem-react/classname';
-import { IClassNameProps, withBemMod } from "@bem-react/core";
+import { IClassNameProps } from "@bem-react/core";
 import * as React from 'react';
 import { Music } from '../Music/Music';
 import { Button } from '../Button/index';
@@ -47,7 +47,7 @@ const eventIcons: IEventIcons = {
     "thermal": "images/thermal.svg",
 };
 
-class EventBlock extends React.Component<IEventBlockProps>{
+export class Event extends React.Component<IEventBlockProps>{
     constructor(props: any) {
         super(props);
     }
@@ -94,13 +94,3 @@ class EventBlock extends React.Component<IEventBlockProps>{
         );
     }
 }
-
-/*
-<div className={cnEvent("ImageInfo")}>
-                            <p className={cnEvent("Transition")}>Перемещение: <span></span></p>
-                            <p className={cnEvent("Brightness")}>Яркость: <span></span></p>
-                            <p className={cnEvent("Zoom")}>Увеличение: <span></span></p>
-                        </div>
- */
-
-export const Event = withBemMod(cnEvent(), { isFull: true })(EventBlock);

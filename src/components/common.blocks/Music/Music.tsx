@@ -1,11 +1,10 @@
 import { cn } from '@bem-react/classname';
-import { withBemMod } from "@bem-react/core";
 import * as React from 'react';
 import './Music.css';
 
 const cnMusic = cn('Music');
 
-const MusicBlock = (props: any) => (
+export const Music = (props: any) => (
     <div className={cnMusic()}>
         <div className={cnMusic("TrackRow")}>
             <img src={props.musicData.albumcover} alt="albumcover" className={cnMusic("TrackIcon")}/>
@@ -25,5 +24,3 @@ const MusicBlock = (props: any) => (
         </div>
     </div>
 );
-
-export const Music = withBemMod(cnMusic(), { isFull: true })(MusicBlock);

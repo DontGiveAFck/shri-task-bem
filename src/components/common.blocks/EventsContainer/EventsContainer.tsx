@@ -1,5 +1,4 @@
 import { cn } from '@bem-react/classname';
-import { withBemMod } from "@bem-react/core";
 import * as React from 'react';
 import { Event } from '../Event/index';
 import * as inputEvents from './EventsContainer.json';
@@ -7,7 +6,7 @@ import './EventsContainer.css';
 
 const cnEvents = cn('EventsContainer');
 
-class EventsContainerBlock extends React.Component {
+export class EventsContainer extends React.Component {
     constructor(props: any) {
         super(props);
     }
@@ -22,5 +21,3 @@ class EventsContainerBlock extends React.Component {
         );
     }
 }
-
-export const EventsContainer = withBemMod(cnEvents(), { isFull: true })(EventsContainerBlock);
